@@ -1,0 +1,324 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1e1e1e;
+    padding: 20px 0;
+    color: white;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header .logo h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero .cta-btn {
+    padding: 15px 40px;
+    background-color: #ff6f61;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  
+  .hero .cta-btn:hover {
+    background-color: #ff4d3d;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Solutions Section */
+  .solutions {
+    padding: 80px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .solutions h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .solution-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+  }
+  
+  /* Technology Section */
+  .technology {
+    padding: 60px 20px;
+  }
+  
+  .technology h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .technology p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .technology ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .technology ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 80px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+  }
+  
+  /* Pricing Section */
+  .pricing {
+    padding: 80px 20px;
+  }
+  
+  .pricing h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .pricing p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .card .cta-btn {
+    padding: 15px 40px;
+    background-color: #ff6f61;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  
+  .card .cta-btn:hover {
+    background-color: #ff4d3d;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact form button {
+    padding: 15px 40px;
+    background-color: #ff6f61;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .contact form button:hover {
+    background-color: #ff4d3d;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
